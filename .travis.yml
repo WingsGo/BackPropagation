@@ -1,6 +1,12 @@
 language:
     - python
 
+python:
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+
 install:
     - pip install -r requirements.txt
     - pip install pytest pycodestyle
@@ -16,3 +22,4 @@ deploy:
       secure: "G1Y9JM+D9kGooZ52WFB5qHCaCIYaxZM+ZpNKeQ9HQ3VZ4vRS9k1s2yae04hw5WTVJOfFA6Ojq1fjjSQcoLRtMRfdFUJ0IikOUCSDjPA7tqsy22+oGtcPGpuTUJdo/r46gQFXCxhKsLDhNVEHdMt4o0ga647pf+EY8CmYXaSlqRDeCbjSn34Xb7BQazo1ONWymijKiyc1LKhs0stNY+b/nMNeJMN60/pDZGMMzahw741bwKEfz1+TW8Sg/fiFGU2zDaqA4e9WxY/y9vOsrVJx7O0kGn+ndQCX9HqtlqXXQ0rODFG8L2wY+5raVXnTv4EyB3jc7Caj0Ol8knokX7C03U4uYFouiLX366w9AEM//xeAltA5AqyxM2P7+wmZnKJxQDUG7y5tU1AaiPgUGqYwYUo5T6h0XoqjKsgLOqs5GxtXcyR2M/i/4iwYmmio6Bv+1WAtNPuFAEtdFSE72toPhVpsln2aRbWbC5So8zzPkto4pRhawBFGXVQT5vIsvQxAQB18cvUE7P2ymEbv1I1nN7/e1zsTSCfKaVJDcnFp79pa90kKr2ACvKfmUZ1Z75tR7PeMAe2F5XNEo9FPquxmR2vL3VN1j7ex/wkiE6vhZFF37JfKSgJFGEU8fzJLwm96Ttgf8AqDoObry4Imu25crGPnBqCpv8LIp7o0z4CpO0g="
     on:
       tags: true
+      python: 3.6
