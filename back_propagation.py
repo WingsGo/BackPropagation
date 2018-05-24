@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 import random
 import typing
 import math
