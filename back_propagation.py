@@ -2,11 +2,12 @@ import random
 import typing
 import math
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __author__ = 'WingC'
 __email__ = '1018957763@qq.com'
 __description__ = 'Python Package for Back Propagation Implement'
 __github__ = 'https://github.com/Wingsgo/Back_Propagation'
+__name__ = 'BackPropagation2'
 
 
 #
@@ -138,7 +139,7 @@ class NeuronLayer:
 
     # 查看该Layer的权重
     def inspect(self):
-        print('Neurons:', len(self.neurons))
+        print('Neurons: ', len(self.neurons))
         for n in range(len(self.neurons)):
             print(' Neuron', n)
             for w in range(len(self.neurons[n].weights)):
