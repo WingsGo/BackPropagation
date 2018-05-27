@@ -1,5 +1,6 @@
 # Back_Propagation
-![Build Status](https://travis-ci.org/Wingsgo/Back_Propagation.svg?branch=master)
+
+[![Build Status](https://travis-ci.org/Wingsgo/BackPropagation.svg?branch=master)](https://travis-ci.org/Wingsgo/BackPropagation)
 
 # Description
 A Simple Implement of Back Propagation
