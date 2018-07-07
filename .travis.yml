@@ -8,11 +8,14 @@ python:
 
 install:
     - pip install -r requirements.txt
-    - pip install pytest pycodestyle
+    - pip install pytest pycodestyle pytest-cov codecov
 
 script:
     - pycodestyle . --max-line-length=120
-    - pytest
+    - python -m pytest --cov=./
+    
+after_success:
+  - codecov
 
 deploy:
     provider: pypi
