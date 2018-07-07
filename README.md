@@ -1,6 +1,7 @@
 # Back_Propagation
 
 [![Build Status](https://travis-ci.org/Wingsgo/BackPropagation.svg?branch=master)](https://travis-ci.org/Wingsgo/BackPropagation)
+[![codecov](https://codecov.io/gh/Wingsgo/BackPropagation/branch/master/graph/badge.svg)](https://codecov.io/gh/Wingsgo/BackPropagation)
 
 # Description
 A Simple Implement of Back Propagation
